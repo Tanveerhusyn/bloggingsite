@@ -103,8 +103,9 @@ export default function Navbar() {
 
                 <div className="flex-col items-center justify-start order-2 hidden w-full md:flex md:flex-row md:w-auto md:flex-1 md:order-none">
                   {rightmenu.map((item, index) => (
-                 
+                
                     <div 
+                    key={index}
                     className="px-5 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500"
                     
                     >  {item.label}</div>
