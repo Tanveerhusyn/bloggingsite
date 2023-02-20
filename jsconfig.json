@@ -11,8 +11,8 @@
         "@components/*": [
           "./components/*"
         ],
-        "@studio/*": [
-          "./studio/*"
+        "@myblog/*": [
+          "./myblog/*"
         ]
       }
     }

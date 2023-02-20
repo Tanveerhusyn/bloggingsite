@@ -2,11 +2,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "echo 'Building Sanity to public/studio' && cd studio && yarn && npx @sanity/cli build ../public/studio -y && echo 'Done'",
+    "prebuild": "echo 'Building Sanity to public/myblog' && cd myblog && yarn && npx @sanity/cli build ../public/myblog -y && echo 'Done'",
     "build": "next build",
     "start": "next start",
-    "sanity": "cd studio && sanity start",
-    "export": "cd studio && sanity dataset export production ../.sanity-template/data/production.tar.gz",
+    "sanity": "cd myblog && sanity start",
+    "export": "cd myblog && sanity dataset export production ../.sanity-template/data/production.tar.gz",
     "lint": "next lint"
   },
   "dependencies": {
