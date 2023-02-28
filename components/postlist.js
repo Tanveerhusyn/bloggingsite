@@ -13,9 +13,11 @@ export default function PostList({ post, aspect }) {
   const AuthorimageProps = post?.author?.image
     ? GetImage(post.author.image)
     : null;
+
+  console.log("INSIDE",post)
   return (
     <>
-      <div className="cursor-pointer link-effect">
+      <div className="cursor-pointer  shadow p-4 link-effect">
         <div
           className={cx(
             "relative overflow-hidden transition-all bg-gray-100 rounded-md dark:bg-gray-800   hover:scale-105",
@@ -50,6 +52,9 @@ export default function PostList({ post, aspect }) {
             </span>
           </Link>
         </h2>
+        <p className="mt-3 text-sm  line-clamp-2 text-gray-500 dark:text-gray-300 md:text-sm">
+                      {post.body[0].children[0].text}
+                    </p>
 
         <div className="hidden">
           {post.excerpt && (

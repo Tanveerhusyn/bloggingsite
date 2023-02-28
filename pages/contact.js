@@ -63,10 +63,7 @@ export default function Contact({ siteconfig }) {
             </p>
 
             <div className="mt-5">
-              <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
-                <LocationMarkerIcon className="w-4 h-4" />
-                <span>1734 Sanfransico, CA 93063</span>
-              </div>
+          
               {siteconfig?.email && (
                 <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
                   <MailIcon className="w-4 h-4" />
@@ -169,7 +166,7 @@ export default function Contact({ siteconfig }) {
 
               <button
                 type="submit"
-                className="w-full py-4 font-semibold text-white transition-colors bg-gray-900 rounded-md hover:bg-gray-800 focus:outline-none focus:ring-offset-2 focus:ring focus:ring-gray-200 px-7 dark:bg-white dark:text-black ">
+                className="w-full py-4 font-semibold text-white transition-colors bg-blue-600 rounded-md hover:bg-gray-800 focus:outline-none focus:ring-offset-2 focus:ring focus:ring-gray-200 px-7 dark:bg-white dark:text-black ">
                 {isSubmitting ? (
                   <svg
                     className="w-5 h-5 mx-auto text-white dark:text-black animate-spin"
