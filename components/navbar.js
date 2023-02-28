@@ -48,7 +48,8 @@ export default function Navbar() {
     <div className="container px-6 py-3 mx-auto md:flex">
         <div className="flex items-center justify-between">
             <a href="#">
-                <img style={{width:'180px',height:'auto'}} className="w-full h-10 sm:h-7" src="/img/mainlogo2.png" alt=""/>
+                <Image src="/img/mainlogo2.png" alt="logo" width={190} height={40}   loader={() => 0}
+    unoptimized={true} style={{width:'180px',height:'auto'}} className="w-full h-10 sm:h-7" />
             </a>
 
           
@@ -56,12 +57,12 @@ export default function Navbar() {
                 <button x-cloak  type="button" className="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400" aria-label="toggle menu">
                    {
                     !isOpen?(
-                      <svg  onClick={()=>setIsOpen(true)} xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+                      <svg  onClick={()=>setIsOpen(true)} xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M4 8h16M4 16h16" />
                   </svg>
                     ):(
-<svg onClick={()=>setIsOpen(false)} x-show="isOpen" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+<svg onClick={()=>setIsOpen(false)} x-show="isOpen" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                     </svg>
                     )
                    }
@@ -85,7 +86,7 @@ export default function Navbar() {
             <div className="relative mt-4 md:mt-0">
                 <span className="absolute inset-y-0 left-0 flex items-center pl-3">
                     <svg className="w-5 h-5 text-gray-400" viewBox="0 0 24 24" fill="none">
-                        <path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                     </svg>
                 </span>
 

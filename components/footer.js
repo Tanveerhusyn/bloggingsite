@@ -12,8 +12,9 @@ export default function Footer(props) {
             <div className="w-full -mx-6 lg:w-2/5">
                 <div className="px-6">
                     <a href="#">
-                    <img style={{width:'180px',height:'auto'}} className="w-full h-10 sm:h-7" src="/img/mainlogo2.png" alt=""/>
-
+                    {/* <img style={{width:'180px',height:'auto'}} className="w-full h-10 sm:h-7" src="/img/mainlogo2.png" alt=""/> */}
+                    <Image src="/img/mainlogo2.png" alt="logo" width={180} height={40}   loader={() => 0}
+    unoptimized={true} style={{width:'180px',height:'auto'}} className="w-full h-10 sm:h-7" />
                     </a>
 
                     <p className="max-w-sm mt-2 text-gray-500 dark:text-gray-400">Access insightful articles on a variety of topics to keep you informed, entertained, and inspired!.</p>
