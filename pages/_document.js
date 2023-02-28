@@ -4,7 +4,7 @@ import Document, {
   Main,
   NextScript
 } from "next/document";
-
+import Script from "next/script";
 class MyDocument extends Document {
   render() {
     return (
@@ -15,6 +15,16 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="icon" href="/img/fav.png" />
+          <Script
+   id="Adsense-id"
+   data-ad-client="ca-pub-7561344437486206"
+   async="true"
+   strategy="beforeInteractive"
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+/>
+ 
+
+
         </Head>
         <body>
           <Main />
