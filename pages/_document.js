@@ -15,6 +15,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="icon" href="/img/fav.png" />
+          <meta name="google-site-verification" content="iI0gf5P6YGdZkDHAavQvcBVVW3fD1OE2lDKyFu8uO5Q" />
           <Script
    id="Adsense-id"
    data-ad-client="ca-pub-7561344437486206"
