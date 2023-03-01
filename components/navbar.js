@@ -8,16 +8,16 @@ import LogoWhite from "../public/img/logo-white.svg";
 import { myLoader } from "@utils/all";
 
 export default function Navbar() {
-  const [isOpen , setIsOpen] = React.useState(true)
+  const [isOpen , setIsOpen] = React.useState(false)
   const leftmenu = [
     {
       label: "Home",
       href: "/"
     },
-    {
-      label: "About",
-      href: "/about"
-    },
+    // {
+    //   label: "About",
+    //   href: "/about"
+    // },
     {
       label: "Contact",
       href: "/contact"

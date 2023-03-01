@@ -65,7 +65,7 @@ export default function Post(props) {
 
           <Container>
             <section className="bg-white dark:bg-gray-900 ">
-              <div className="container px-6 py-10 mx-auto">
+              <div className="container px-1 py-10 mx-auto">
                 <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
                   Trending
                 </h1>
@@ -134,7 +134,7 @@ export default function Post(props) {
           </Container>
           <Container>
             <section className="bg-white dark:bg-gray-900">
-              <div className="container px-6 py-10 mx-auto">
+              <div className="container px-1 py-10 mx-auto">
                 <div className="text-center">
                   <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
                     Featured
