@@ -1,18 +1,3 @@
-# Stablo Blog Template - Next.js & Sanity CMS
-
-Stablo is a JAMStack Starter template built with Next.js, Tailwind CSS & Sanity CMS by [Web3Templates](https://web3templates.com/).
-
-**[Click here to see live demo →](https://stablo-template.vercel.app/)**
-
-<a href="https://www.sanity.io/create?template=web3templates%2Fstablo">
-<img width="259" alt="Deploy to Vercel & Sanity" src="https://user-images.githubusercontent.com/1884712/169833532-1007b9aa-1456-4386-9526-7b5b46b094ed.png">
-</a> 
-
-###### Click the above button for one-click clone & deploy for this template. Read [quick start](#quick-start) guide below. 
-
-#### Template Preview
-
-[![FTbqAP1UAAEFztZ](https://user-images.githubusercontent.com/1884712/169838344-e32b7426-621a-45a4-aba8-afedf3377e1f.jpeg)](https://stablo-template.vercel.app/)
 
 ## Quick Start
 
